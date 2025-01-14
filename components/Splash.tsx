@@ -10,8 +10,8 @@ const Splash = () =>{
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' , backgroundColor:'#333333' }}>
       <Image
         source={require('./movie1.png')}
-        resizeMode="contain" // Ensures the image fits within the screen bounds
-        style={{ width: width * 0.8, height: height * 0.4 }} // Adjust the size as needed
+        resizeMode="contain" 
+        style={{ width: width * 0.8, height: height * 0.4 }} 
       />
       <Text style={{color:'white' , fontWeight:'bold' , textAlign:'center' , fontSize:24, marginTop:10 , marginBottom:5}}>RRMovies</Text>
       

@@ -25,7 +25,6 @@ const Home = () => {
       });
   }, []);
 
-  // Navigate to Details Screen
 
 
   // Render each movie item
